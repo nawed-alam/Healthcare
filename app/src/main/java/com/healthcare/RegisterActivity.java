@@ -1,7 +1,6 @@
 package com.healthcare;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,8 +21,8 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         edusername = findViewById(R.id.editTextRegUserName);
-        edemail = findViewById(R.id.editTextRegEmail);
-        edpassword = findViewById(R.id.editTextRegPassword);
+        edemail = findViewById(R.id.editTextAppAddress);
+        edpassword = findViewById(R.id.editTextContactNumber);
         edconfirm = findViewById(R.id.editTextRegConirmPassword);
         btn = findViewById(R.id.buttonReg);
         tv = findViewById(R.id.textViewExistingUser);

@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextRegEmail"
+        android:id="@+id/editTextAppAddress"
         android:layout_width="270dp"
         android:layout_height="45dp"
         android:background="@drawable/input_bg"
@@ -53,7 +53,7 @@
         app:layout_constraintVertical_bias="0.234" />
 
     <EditText
-        android:id="@+id/editTextRegPassword"
+        android:id="@+id/editTextContactNumber"
         android:layout_width="270dp"
         android:layout_height="45dp"
         android:layout_marginBottom="284dp"
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextRegEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppAddress"
         app:layout_constraintVertical_bias="0.931" />
 
     <TextView

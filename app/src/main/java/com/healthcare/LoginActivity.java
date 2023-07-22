@@ -40,7 +40,7 @@ TextView tv;
                         editor.putString("username",username);
                         //to save our data with key and value.
                         editor.apply();
-                        startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+                        startActivity(new Intent(LoginActivity.this,HomeActivity.class)  );
                     }
                     Toast.makeText(getApplicationContext(), "Invalid Username and Password", Toast.LENGTH_SHORT).show();
                 }

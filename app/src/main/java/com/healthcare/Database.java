@@ -38,7 +38,7 @@ public int login(String username,String password)
     String str[]=new String[2];
     str[0]=username;
     str[1]=password;
-    SQLiteDatabase db = getWritableDatabase();
+    SQLiteDatabase db = getReadableDatabase();
     Cursor c = db.rawQuery("select * from users where username=? and password=?",str);
     if(c.moveToFirst()){
         result=1;
